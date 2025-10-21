@@ -15,6 +15,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    opacity: 0;
+    animation: fadeUp linear both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 30%;
 }
 
 .textNumPartie {
@@ -106,4 +110,43 @@
 .radioPartie input[type=radio] {
     width: 15px;
     height: 15px;
+}
+
+.section2Problem {
+    background-color: #2E2E2E;
+    width: 100%;
+}
+
+.section2Problem {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.wordCountryDiv {
+    background-image: url(/asset/image/problem/Rectangle\ 5681.png);
+    width: 450px;
+    height: 640px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 180px;
+}
+
+.countryDiv {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    margin-top: 100px;
+    border-radius: 12px;
+    padding-left: 10px;
+}
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
