@@ -1,14 +1,16 @@
 .exploreOurSecretSection {
     background-image: url(/asset/image/Img-acc/ifan-bima-B04Xpnu5JQ4-unsplash_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
-    height: 100%;
+    height: 1600px;
 }
 
 .byTHeNUmberSection {
     background-color: rgba(57, 178, 73, 0.6);
     width: 100%;
-    height: 750px;
-    margin-top: 1310px;
+    height: 500px;
+    margin-top: 704px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,4 +49,61 @@
     text-align: center;
     margin-top: 20px;
     line-height: 21px;
+}
+
+.threeImageGood {
+    width: 270px;
+    height: 180px;
+    margin: 6px;
+}
+
+.imagesDivThreeExplore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.imagesBUtoonPartie {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.imagesBUtoonPartie button {
+    background: none;
+    border: none;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.imagesBUtoonPartie button:hover {
+    font-size: xx-large;
+    text-shadow: 1px 1px 4px black;
+    margin-left: -5px;
+}
+
+.imagesDivThreeExplore p {
+    font-size: 35px;
+}
+
+.imagesButtonRadioSectionDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.radioPartie {
+    display: flex;
+    gap: 15px;
+}
+
+.radioPartie input[type=radio] {
+    width: 15px;
+    height: 15px;
 }

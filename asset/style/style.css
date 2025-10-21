@@ -25,4 +25,5 @@ nav {
     background-color: white;
     color: #83C132;
     font-size: x-large;
+    box-shadow: 1px 1px 3px black;
 }
