@@ -1,0 +1,50 @@
+.exploreOurSecretSection {
+    background-image: url(/asset/image/Img-acc/ifan-bima-B04Xpnu5JQ4-unsplash_1.png);
+    width: 100%;
+    height: 100%;
+}
+
+.byTHeNUmberSection {
+    background-color: rgba(57, 178, 73, 0.6);
+    width: 100%;
+    height: 750px;
+    margin-top: 1310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textNumPartie {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.onetextNumP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+}
+
+.byTHeNUmberText {
+    color: white;
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.numPara {
+    color: black;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.paragrapheLorem {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 21px;
+}
