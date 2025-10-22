@@ -1,0 +1,65 @@
+body {
+    background-color: #1C1C1C;
+}
+
+.typ_polution_buton {
+
+    display: flex;
+    align-items: center;
+    background-color: #2E2E2E;
+    line-height: 40px;
+    margin: 2px;
+    margin-top: 10px;
+    border-radius: 35px;
+    padding-left: 20px;
+    gap: 10px;
+    width: 24%;
+    justify-content: space-between;
+    color: white;
+    box-shadow: 1px 1px 3px #39B249;
+
+}
+
+.typ_polution_buton button {
+    margin-right: 25px;
+    border-radius: 100%;
+    border: none;
+    height: 50%;
+    width: 19px;
+    background-color: #39B249;
+
+}
+
+.phone_butom_dev {
+
+    width: 200px;
+    height: 200px;
+    margin-top: 4%;
+    margin-left: 4%;
+    background: #2E2E2E;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+}
+
+.phone_butom_dev button {
+    border-radius: 100%;
+    border: none;
+    width: 38px;
+    height: 38px;
+    background: #39B249;
+
+}
+.div2_artice2{
+    display: flex;
+    gap: 50px;
+    
+}
+#imge_article{
+    height: 50%;
+    width: 50%;
+}
