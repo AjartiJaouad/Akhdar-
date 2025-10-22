@@ -113,13 +113,15 @@
 }
 
 .section2Problem {
-    background-color: #2E2E2E;
+    background-image: url(/asset/image/problem/back.png);
+    background-position: -1px;
     width: 100%;
 }
 
-.section2Problem {
+.Section1_2Problem {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     gap: 100px;
 }
 
@@ -138,10 +140,91 @@
     display: flex;
     align-items: center;
     width: 150px;
-    height: 40px;
+    height: 50px;
     margin-top: 100px;
     border-radius: 12px;
-    padding-left: 10px;
+    padding-left: 20px;
+}
+
+.countryDivL {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    margin-top: 100px;
+    border-radius: 12px;
+    padding-left: 20px;
+    position: relative;
+    right: 35%;
+}
+
+.countryDiv p {
+    padding-left: 20px;
+}
+
+.textPArtieCountry {
+    margin-top: 250px;
+}
+
+.textPArtieCountry p:nth-child(1) {
+    font-size: small;
+    color: #39B249;
+}
+
+.textPArtieCountry p:nth-child(2) {
+    font-size: xx-large;
+    color: #39B249;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.learnMoreButton {
+    border-radius: 20px;
+    border: none;
+    background: #39B249;
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-size: large;
+}
+
+.learnMoreButton:hover {
+    background: white;
+    color: #39B249;
+    font-size: larger;
+    box-shadow: 2px 2px 5px black;
+}
+
+.Section2_2Problem {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Section2_2Problem_Div {
+    width: 85%;
+    height: 700px;
+    background-color: rgba(28, 28, 28, 0.7);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.typePollutionDiv {
+    display: grid;
+    grid-template-columns: repeat(3 , 350px);
+    justify-content: center;
+    align-items: center;
+}
+
+.typePollutionDiv>div {
+    border: 3px solid #39B249;
+    border-radius: 20px;
+    width: 300px;
+    height: 150px;
 }
 
 @keyframes fadeUp {
