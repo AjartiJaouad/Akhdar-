@@ -15,10 +15,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    opacity: 0;
-    animation: fadeUp linear both;
-    animation-timeline: view();
-    animation-range: entry 20% cover 30%;
 }
 
 .textNumPartie {
@@ -159,6 +155,15 @@
     right: 35%;
 }
 
+
+.SouthAfrica {
+    right: 27%;
+}
+
+.Turkey {
+    right: 40%;
+}
+
 .countryDivL p {
     padding-left: 20px;
 }
@@ -263,12 +268,13 @@
     height: 560px;
     border-radius: 20px;
     position: relative;
-    right: 31%;
+    right: 50%;
     top: -40px;
 }
 
 .Section2_3Problem>div {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3 , 500px);
 }
 
 .Section2_3Problem_Div_img {
@@ -276,4 +282,115 @@
     border-radius: 20px;
     z-index: 999;
     width: 510px;
+    margin-left: 200px;
+}
+
+.last_readMoreLink {
+    width: 150px ;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: #39B249;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+.phoneButton {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #39B249;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.lastDivSection2_3Problem {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .exploreOurSecretSection {
+    width: 100%;
+    height: 700px;
+    }
+    
+    .img_pageProblem {
+        display: none;
+    }
+
+    .byTHeNUmberSection {
+        display: none;
+    }
+
+    .Section1_2Problem {
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .countryDivL , .SouthAfrica , .Turkey {
+        right: 0%;
+    }
+
+    .countryDiv {
+        position: relative;
+        left: -33%;
+    }
+
+    .southKoria {
+        left: -40%;
+    }
+
+    .typePollutionDiv {
+        grid-template-columns: repeat(1 , 350px);
+        justify-content: center;
+        align-items: center;
+        row-gap: 50px;
+    }
+
+    .typePollutionDiv>div>img {
+        height: 100px;
+    }
+
+    .typePollutionDiv>div {
+        height: 100px;
+    }
+
+    .titleTypeTExtLinkDiv{
+        gap: 10px;
+    }
+
+    .Section2_2Problem_Div {
+        height: 1200px;
+        margin-bottom: 200px;
+    }
+
+    .wordCountryDiv  {
+        margin-bottom: 280px;
+    }
+
+    .Section2_3Problem>div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Section2_3Problem_Div_img {
+        display: none;
+    }
+
+    .Section2_3Problem img {
+        width: 80%;
+        height: 400px;
+        right: -10%;
+        top: -40px;
+    }
 }
