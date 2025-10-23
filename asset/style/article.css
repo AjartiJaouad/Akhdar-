@@ -2,36 +2,41 @@ body {
     background-color: #1C1C1C;
 }
 
-.typ_polution_buton {
+.div2_artice2{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    margin-top: 50px;
+}
 
+.typ_polution_buton {
     display: flex;
     align-items: center;
     background-color: #2E2E2E;
-    line-height: 40px;
     margin: 2px;
     margin-top: 10px;
-    border-radius: 35px;
+    margin-left: 10px;
+    border-radius: 10px;
     padding-left: 20px;
     gap: 10px;
-    width: 24%;
+    width: 130%;
+    height: 60px;
     justify-content: space-between;
     color: white;
-    box-shadow: 1px 1px 3px #39B249;
-
 }
 
 .typ_polution_buton button {
     margin-right: 25px;
     border-radius: 100%;
     border: none;
-    height: 50%;
-    width: 19px;
+    height: 25px;
+    width: 25px;
     background-color: #39B249;
-
+    cursor: pointer;
+    font-size: x-large;
 }
 
 .phone_butom_dev {
-
     width: 200px;
     height: 200px;
     margin-top: 4%;
@@ -43,7 +48,8 @@ body {
     align-items: center;
     flex-direction: column;
     color: white;
-
+    margin-left: 50px;
+    line-height: 50px;
 }
 
 .phone_butom_dev button {
@@ -54,12 +60,67 @@ body {
     background: #39B249;
 
 }
-.div2_artice2{
-    display: flex;
-    gap: 50px;
-    
-}
+
 #imge_article{
-    height: 50%;
-    width: 50%;
+    height: 550px;
+    width: 1050px;
+}
+
+.sections2_article h1  {
+    margin-top: 20px;
+    color: #39B249;
+    font-weight: 700;
+}
+
+.sections2_article--paragraphe1 {
+    color: white;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.sections2_article--miniParagraphs {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sections2_article--miniParagraphs>div {
+    margin-top: 30px;
+}
+
+.sections2_article--miniParagraphs>div>div {
+    display: flex;
+}
+
+.sections2_article--miniParagraphs>div>div>p {
+    margin-left: 15px;
+    font-size: larger;
+    font-weight: 500;
+    color: #39B249;
+}
+
+.sections2_article--miniParagraphs>div>p {
+    margin-top: 10px;
+    font-size: xx-large ;
+    color: white;
+}
+
+.imge2_article {
+    height: 350px;
+    width: 1050px;
+}
+
+.sections2_article--Paragraphes2 {
+    margin-top: 20px;
+}
+
+.sections2_article--Paragraphes2>h1 {
+    color: #39B249;
+}
+
+.sections2_article--Paragraphes2>p {
+    margin-top: 10px;
+    font-size: 125%;
+    color: white;
 }

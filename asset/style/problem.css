@@ -269,7 +269,6 @@
 
 .Section2_3Problem>div {
     display: flex;
-    justify-content: space-around;
 }
 
 .Section2_3Problem_Div_img {
@@ -277,11 +276,4 @@
     border-radius: 20px;
     z-index: 999;
     width: 510px;
-}
-
-@keyframes fadeUp {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
