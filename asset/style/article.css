@@ -124,3 +124,53 @@ body {
     font-size: 125%;
     color: white;
 }
+
+@media (max-width: 768px) {
+    .div2_artice2{
+        flex-direction: column;
+    }
+
+    .typ_polution_buton {
+        width: 80%;
+        height: 60px;
+        margin-left: 50px;
+    }
+
+    .phone_butom_dev {
+        width: 80%;
+    }
+
+    #imge_article , .imge2_article{
+        height: 250px;
+        width: 80%;
+        margin-left: 50px;
+    }
+
+    .sections2_article h1  {
+        margin-left: 20px;
+    }
+
+    .sections2_article--paragraphe1 {
+        font-size: large;
+        line-height: 25px;
+        margin-left: 15px;
+    }
+
+    .sections2_article--miniParagraphs {
+        margin-left: 15px;
+    }
+
+    .sections2_article--miniParagraphs>div>div>p {
+        font-size: large;
+    }
+
+    .sections2_article--miniParagraphs>div>p {
+        font-size: large ;
+    }
+
+    .sections2_article--Paragraphes2>p {
+        font-size: large;
+        line-height: 25px;
+        margin-left: 15px;
+    }
+}
