@@ -14,6 +14,12 @@
     <section class="exploreOurSecretSection">
         <nav>
             <button class="navBarButtonMenu">Menu</button>
+            <div class="nav-links">
+            <a href="index.html">Acceuil</a>
+            <a href="problem.html">Problems</a>
+            <a href="article.html">Arcticle</a>
+            <a href="#">About us</a>
+        </div>
         </nav>
         <div class="imagesButtonRadioSectionDiv">
             <div class="imagesDivThreeExplore">
@@ -156,10 +162,10 @@
             <div>
                 <div class="Section2_3Problem_Div_img"></div>
                 <img src="asset/image/problem/Rectangle 3268.png">
-                <div">
+                <div class="Section2_3Problem--taext">
                     <div style="line-height: 45px;">
                         <p style="background-color: #39B249; color: black; width: 110px;">Why Choose Us</p>
-                        <p style="font-size: 50px; color: #39B249; margin-top: 20px;">Experiencing Traditions Cultural Immersion</p>
+                        <p style="color: #39B249; margin-top: 20px;" class="experiencingText">Experiencing Traditions Cultural Immersion</p>
                     </div>
                     <div style="margin-left: 30px;">
                         <p style="line-height: 45px; font-size: larger; color: #39B249;">Marketing Services</p>
@@ -183,5 +189,27 @@
             </div>
         </section>
     </section>
+
+    <footer>
+        <div class="footer-content">
+            <span>Menu</span>
+            <div class="social">
+                <a href="#" class="social-icon">in</a>
+                <a href="#" class="social-icon">f</a>
+                <a href="#" class="social-icon">G</a>
+            </div>
+            <span>Copyright © 2019</span>
+        </div>
+        <a href="#hero"><button class="scroll-top">↑</button></a>
+    </footer>
+
+    <script>
+        const menuBtn = document.querySelector(".navBarButtonMenu");
+        const navLinks = document.querySelector(".nav-links");
+
+        menuBtn.addEventListener("click", () => {
+            navLinks.classList.toggle("show");
+        });
+    </script>
 </body>
 </html>

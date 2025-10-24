@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All For A Better Environment</title>
     <link rel="stylesheet" href="asset/style/index.css">
+    <link rel="stylesheet" href="asset/style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&display=swap" rel="stylesheet">
@@ -12,11 +13,17 @@
 <body>
     <nav class="navbar">
         <div class="news-btn">news</div>
-        <button class="menu-btn">MENU</button>
+        <button class="navBarButtonMenu">Menu</button>
+        <div class="nav-links">
+            <a href="index.html">Acceuil</a>
+            <a href="problem.html">Problems</a>
+            <a href="article.html">Arcticle</a>
+            <a href="#">About us</a>
+        </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero" style="background-image: url('asset/image/home/main.png');">
+    <section class="hero" style="background-image: url('asset/image/home/main.png');" id="hero">
         <div class="hero-content">
             <h1>All FOR A BETTER<br>Environment</h1>
             <div class="hero-values">
@@ -200,8 +207,16 @@
             </div>
             <span>Copyright © 2019</span>
         </div>
+        <a href="#hero"><button class="scroll-top">↑</button></a>
     </footer>
 
-    <button class="scroll-top">↑</button>
+    <script>
+        const menuBtn = document.querySelector(".navBarButtonMenu");
+        const navLinks = document.querySelector(".nav-links");
+
+        menuBtn.addEventListener("click", () => {
+            navLinks.classList.toggle("show");
+        });
+    </script>
 </body>
 </html>
